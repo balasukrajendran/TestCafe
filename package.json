@@ -1,0 +1,14 @@
+{
+  "scripts": {
+    "edgeTest": "testcafe edge tests/session2/firstTest.js",
+    "firefoxTest": "testcafe firefox tests/session2/firstTest.js",
+    "chromeTest": "testcafe chrome tests/session2/firstTest.js",
+    "chromeTestRep": "testcafe chrome tests/session2/firstTest.js  --reporter html:tests/session2/report.html",
+    "chromeTestVid": "testcafe chrome tests/session2/firstTest.js  --video tests/session2/videos"
+  },
+  "dependencies": {
+    "@ffmpeg-installer/ffmpeg": "^1.1.0",
+    "testcafe": "^1.15.3",
+    "testcafe-reporter-html": "^1.4.6"
+  }
+}
